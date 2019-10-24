@@ -1,0 +1,216 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "footy quiz",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "help please",
+                        "get help"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "stop the game",
+                        "stop please"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AnswerIntent",
+                    "slots": [
+                        {
+                            "name": "answer",
+                            "type": "answer"
+                        }
+                    ],
+                    "samples": [
+                        "i think {answer}",
+                        "{answer} ",
+                        "is it {answer}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": [
+                        "sure start the quiz",
+                        "yeah",
+                        "yup",
+                        "yes"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StartOverIntent",
+                    "samples": [
+                        "start over",
+                        "restart"
+                    ]
+                },
+                {
+                    "name": "StartQuizIntent",
+                    "slots": [],
+                    "samples": [
+                        "take me to the quiz",
+                        "start the quiz"
+                    ]
+                },
+                {
+                    "name": "ContinueIntent",
+                    "slots": [],
+                    "samples": [
+                        "continue"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "answer",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "france"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "brazil"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "germany"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "england"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "virgil van dijk",
+                                "synonyms": [
+                                    "virgil",
+                                    "van dijk"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "neymar"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "johan cruyff",
+                                "synonyms": [
+                                    "johan",
+                                    "cruyff"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "socrates"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "michel platini",
+                                "synonyms": [
+                                    "michel",
+                                    "platini"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "diego maradona",
+                                "synonyms": [
+                                    "diego",
+                                    "maradona"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "chelsea"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "manchester city",
+                                "synonyms": [
+                                    "city"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "west ham united",
+                                "synonyms": [
+                                    "west ham"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "liverpool"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ronaldinho",
+                                "synonyms": [
+                                    "dinho"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "lionel messi",
+                                "synonyms": [
+                                    "lionel",
+                                    "leo",
+                                    "messi"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cristiano ronaldo",
+                                "synonyms": [
+                                    "cr7",
+                                    "ronaldo",
+                                    "cristiano"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ali daei",
+                                "synonyms": [
+                                    "daei",
+                                    "ali"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
